@@ -9,7 +9,7 @@ This assignment is built on top of the previous assignment.
 We'd like to utilize the twitter data (raw formats) that you gathered in assignment 2. 
 
 ##Lexical diversity  ##
-lexical diversity is a measurement that provides a quantitative measure for the diversity of an individual's or group's vocabulary.  It is calculated by  finding the number of unique tokens in the text divided by the total number of tokens in the text. 
+Lexical diversity is a measurement that provides a quantitative measure for the diversity of an individual's or group's vocabulary.  It is calculated by  finding the number of unique tokens in the text divided by the total number of tokens in the text. 
 
 ## Storing Task ##
 
