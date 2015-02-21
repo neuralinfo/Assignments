@@ -31,7 +31,7 @@ Lexical diversity is a measurement that provides a quantitative measure for the 
      you find in task 2.1. Then, write a program to find the un-followd friends after a week for the top 10 users( users that have the highest number of followers in  task 2.1)
      since the time that you extracted the tweets.
      
-  2.4- .Write a python program and use NLTK to analyze the top 30 retweets of task 2.1 as positive or negative (sentiment analysis). This is bonus question.
+  2.4- .(Bonus task) Write a python program and use NLTK to analyze the top 30 retweets of task 2.1 as positive or negative (sentiment analysis). This is the bonus part of the assginmnet.
 
 ##3-Storing and Retrieving Task##
 
