@@ -1,0 +1,27 @@
+Sentiment Analysis: 0	Original Tweet: @ayushmannk AyushmannAtVfest RT @SAIESH14 microsoft v festayushman khurana httptcoVZH0PWr0Fh
+Sentiment Analysis: -1	Original Tweet: @Office365 SAPGateway  @shoshe &amp; @hobru on accessing SAP data w Microsoft technology httptcopGBoT0rfFH
+Sentiment Analysis: 0	Original Tweet: @microsoft__now ASUS1188Windows   httptcozUkhB7bhuz microsoft
+Sentiment Analysis: 0	Original Tweet: @WindowsInd Powerpacked &amp; built to last Get the new Microsoft Lumia435 today httptcohAD5tLN9hE @LumiaIndia httptcoD5ukgg
+Sentiment Analysis: 0	Original Tweet: @Israel Microsoft buys Israeli digital pen maker Ntrig httptco5UbJTWNXwG via @YahooNews
+Sentiment Analysis: 1	Original Tweet: @sharrisny "Do everything find your passion" Kimberly Bryant @BlackGirlsCode at Microsoft BMSD httptcoYuJzZSYLMy
+Sentiment Analysis: 0	Original Tweet: @microsoft__now Windows 81Tips 102 Windows 81 httptcos4VcUNqzug microsoft
+Sentiment Analysis: 0	Original Tweet: @larepublica_pe Microsoft propone estos hbitos para proteger nuestra vida digital  httptcoUgkOsYvO8g  Tecnologa httptcoLT
+Sentiment Analysis: -1	Original Tweet: @gizbotcom Microsoft Sends Invites for Mystery Event on February 19 New Member in Lumia Family Coming httptcoxkPLVhQ5zx Microso
+Sentiment Analysis: 0	Original Tweet: @WinBetaDotOrg Windows 10 Technical Preview for Phones updates to be delivered httptcoMBXV8KXRt5 Microsoft WindowsPhone http
+Sentiment Analysis: 0	Original Tweet: @lifeatordinabe Looking for adventureA meaningful experience Jobs Java Microsoft Testing SAP Businessconsultants Design BI ht
+Sentiment Analysis: 0	Original Tweet: @jakiwatsonn Guidelines for Sharing Information Published By Microsoft httptcoKPJBsZYcgP SharePoint developer httptcoK3dHB
+Sentiment Analysis: 0	Original Tweet: @WinBetaDotOrg GDC 2015 Microsoft to reveal more on whats to come with gaming on httptco593ppi2vMp Microsoft Xbox httptco
+Sentiment Analysis: 0	Original Tweet: @zaibatsu Apple just fired a shot at Google Apps and Microsoft Office httptcomVdIfiXo20 httptcoUzgDSjTHq6
+Sentiment Analysis: 0	Original Tweet: @LuLzWarfare Sony Microsoft and Others Agree to Share Customer Data with US Government  httpstcoq1fHay2xTw
+Sentiment Analysis: -1	Original Tweet: @WinBetaDotOrg Microsoft warns that sideloading Windows 10 onto unsupported httptcoMXrks5H1oo Microsoft WindowsPhone httptc
+Sentiment Analysis: 0	Original Tweet: @frenchweb Microsoft aurait rachet NTrig (stylet connect) pour 200 millions de dollars httptcomAhwQy87jb Microsoft
+Sentiment Analysis: 0	Original Tweet: @dbordini O maior evento  Microsoft voltou Varias novidades Aproveita o carnaval e faz sua inscricao httptco7Sk98JF5Zj tec
+Sentiment Analysis: 1	Original Tweet: @MS_Ignite See the commitment Microsoft makes for Office365 subscribers to offer security privacy &amp; compliance httptcoZ3Tn6SE
+Sentiment Analysis: 1	Original Tweet: @holroh Microsoft kndigt kostenlosen technischen Support fr NonProfitOrganisationen an httptcoshczI39GV3 via @NewsRepublicDe
+Sentiment Analysis: 1	Original Tweet: @TomekObirek Blown away how good Microsoft OneNote is
+Sentiment Analysis: -1	Original Tweet: @InfosecurityMag Watch our On Demand InfosecWebinar &amp; learn about the  recent GHOST vulnerability FebPatchUpdate Microsoft Attack 
+Sentiment Analysis: 0	Original Tweet: @WinBetaDotOrg Video app on Windows Phone receives a small update httptcot3ZwN1V4Rp Microsoft WindowsPhone httptcoZurjx8Jv1D
+Sentiment Analysis: 0	Original Tweet: @MICTorino Orgogliosi dellannuncio di @purassan del Microsoft IoT Competence Center Torino al @ismbonweb IoYT @pmulassano httpt
+Sentiment Analysis: 1	Original Tweet: @Windows10Info How to get Windows 10 on your phone right now  Telegraph Microsoft windows10 httptco1f3ShzLZGp httptcoQALEl
+Sentiment Analysis: 1	Original Tweet: @WBuzzer Why the worlds first TileArt app artists love TileArt httptcowgcXlhELkO microsoft httptco76jY2tjzgJ
+Sentiment Analysis: 0	Original Tweet: @CompressiveNews What Impact Will Apples iWork Have on Google Drive and Microsoft Office httptcogs8K6ex3fN httptco9DNb6P
