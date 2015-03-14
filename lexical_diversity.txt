@@ -1,0 +1,3 @@
+total number of words: 38042
+total number of unique words: 7508
+lexical diversity of corpus: 0.197361
