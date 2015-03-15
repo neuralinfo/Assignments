@@ -1,0 +1,25 @@
+userId209811713
+count of followers from user property:188751
+count of users from api call188559
+ 
+userId83316868
+count of followers from user property:27272
+count of users from api call27263
+ 
+userId15497093
+count of followers from user property:2575
+count of users from api call2575
+ 
+userId160549126
+count of followers from user property:277
+count of users from api call278
+ 
+userId17000457
+count of followers from user property:304214
+count of users from api call303879
+ 
+userId2809878539
+count of followers from user property:171
+count of users from api call169
+ 
+Rate limit reached. Sleeping for: 976

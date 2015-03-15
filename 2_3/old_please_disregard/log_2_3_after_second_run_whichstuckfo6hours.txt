@@ -1,0 +1,3 @@
+Rate limit reached. Sleeping for: 1042
+Rate limit reached. Sleeping for: 1015
+Rate limit reached. Sleeping for: 1010

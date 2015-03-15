@@ -1,0 +1,44 @@
+userId152585619
+count of followers from user property:150113
+count of users from api call150067
+ 
+userId2206092889
+count of followers from user property:2757
+count of users from api call2758
+ 
+userId2837996969
+count of followers from user property:7920
+count of users from api call7759
+ 
+userId2576487215
+count of followers from user property:3523
+count of users from api call3491
+ 
+userId100731315
+count of followers from user property:540920
+count of users from api call540132
+ 
+userId159223609
+count of followers from user property:147050
+count of users from api call146928
+ 
+userId19923515
+count of followers from user property:717542
+count of users from api call716491
+ 
+userId3049567425
+count of followers from user property:14
+count of users from api call11
+ 
+userId132987218
+count of followers from user property:942
+count of users from api call932
+ 
+userId19601111
+count of followers from user property:158394
+count of users from api call158331
+ 
+userId133272665
+count of followers from user property:16576
+count of users from api call16568
+ 
