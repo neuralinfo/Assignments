@@ -11,7 +11,7 @@ In this assignment, you implement map-reduce jobs for various tasks:
 
 **Data collection:** 
  
- Write an acquisition program that can acquire all the tweets between June 6th and July 14th of 2014 for the official World Cup hashtags (“#WorldCup” and “#Brazil2014”), as well as team code hashtags (e.g. “#ARG” and “#GER”) using the Twitter Search API and store them in *WC2014.csv* on S3. You can find more information about the hashtags [here](https://blog.twitter.com/en-gb/2014/follow-the-2014-world-cup-on-twitter). *WC2014.csv* will be used in the following tasks.
+ Write an acquisition program that can acquire all the tweets between June 6th and July 14th of 2014 for the official World Cup hashtags (“#WorldCup” and “#Brazil2014”), as well as team code hashtags (e.g. “#ARG” and “#GER”) and store them in *WC2014.csv* on S3. You can find more information about the hashtags [here](https://blog.twitter.com/en-gb/2014/follow-the-2014-world-cup-on-twitter). *WC2014.csv* will be used in the following tasks.
 
 #**Analysis Programs**
 
