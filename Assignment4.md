@@ -26,8 +26,9 @@ In this assignment, you implement map-reduce jobs for various tasks:
 | 8/14     | 01   |   5432   |
 | 8/14     | 02    |  3279  |
 
- 3. Write a map-reduce program to compute the top 20 URLs tweeted by the users
- 4. Write a map-reduce program that for each word in the tweets' text,  computes the occurrences of other words appear in every tweet that it appeared.
+ 3  -Write a map-reduce program to compute the top 20 URLs tweeted by the users
+ 
+ 4  -Write a map-reduce program that for each word in the tweets' text,  computes the occurrences of other words appear in every tweet that it appeared.
 For example, assume that we have the following text as a tweet text.
 
 > I have seen Brazil match today. I am so happy that they won :)
@@ -53,7 +54,7 @@ Here are an example of sample outputs:
 
  
 
-5- Modifying the program in 4, write a map-reduce program to compute [pointwise mutual information](http://en.wikipedia.org/wiki/Pointwise_mutual_information), which is a function of two events x and y:
+5- (bonus) Modifying the program in 4, write a map-reduce program to compute [pointwise mutual information](http://en.wikipedia.org/wiki/Pointwise_mutual_information), which is a function of two events x and y:
 
   ![enter image description here](http://www.sciweavers.org/upload/Tex2Img_1427156570/render.png)
   
