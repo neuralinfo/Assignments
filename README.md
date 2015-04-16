@@ -3,7 +3,7 @@
 ## Prerequisites ##
 
 You need to create a Github account and for each assignment, you need to create a repository. 
-Note: your repositories will be public unless you [request a private one] ](https://education.github.com/discount_requests/new)
+Note: your repositories will be public unless you [request a private one](https://education.github.com/discount_requests/new)
 
 
 ## The Process ##
