@@ -26,6 +26,60 @@ Note: Keep track of the time necessary to run the process.  For Linux/Mac users,
  1. Follow the process for running the program on on on [Amazon Elastic MapReduce]( https://github.com/commoncrawl/cc-mrjob#running-via-elastic-mapreduce) and measure the completion time.
  2. Download the output from S3.
 
+# Setup for running on AWS EMR #
+
+## AWS Setup ##
+You can create users instead of using your root aws credentials
+If you do not have a user/group with access to EMR, you'll need to do the following procedure.
+
+First, you need to setup a user to run EMR:
+
+ 1. Visit http://aws.amazon.com/ and sign up for an account.
+ 2. Select the "Identity and Access Management" (or IAM) from your console or visit https://console.aws.amazon.com/iam/home
+ 3. Select "Users" from the list on the left.
+ 3. Click on the "Create New Users"
+ 4. Enter a user name for yourself and create the user.
+ 5. The next screen will give you an option to download the credentials for this user.  Do so and store them in a safe place.  You will not be able to retrieve them again.
+
+Second, you need to create a group with the right roles:
+
+ 1. Select "Groups" from the list on the left.
+ 2. Click on "Create New Group".
+ 3. Enter a name and click on "Next Step".
+ 4. Scroll down to "Amazon Elastic MapReduce Full Access" click on "Select".
+ 5. Once the policy document is displayed, click on "Next Step".
+ 6. Click on "Create Group" to create the group.
+ 
+Third, you need to assign your user to the group:
+
+ 1. Select the check box next to your group.
+ 2. Click on the "Group Actions" drop-down menu and click on "Add Users to Group".
+ 3. Select your user by clicking on the check box.
+ 4. Click on "Add Users".
+
+## Configure mrjob with the new user credentials##
+
+You need to configure mrjob to access your AWS account:
+
+   1. Edit the mrjob.conf
+   2. Locate the `#aws_access_key_id:` and `#aws_secret_access_key:` lines.
+   3. Remove the hash (#) and add your AWS key and secret after the colon (:).  You should have these from previously creating the user.
+   
+## Setup an Output Bucket on S3 ##
+
+You need to create an output bucket on S3 for the results of your computation:
+
+   1. Go to https://aws.amazon.com/ in your browser.
+   2. Click on the 'S3' service link.
+   3. Click on the 'Create Bucket' button.
+   4. Enter a name and hit create.
+   
+Keep in mind that the bucket name is unique to all of Amazon.  If you use some common name, it is likely to clash with other 
+users.  One suggestion is to use a common prefix (e.g. a domain name) for all your bucket names.
+
+
+
+
 ## What to Turn In ##
 
 You must turn in a pull request containing the following:
