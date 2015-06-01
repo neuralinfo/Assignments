@@ -2,9 +2,16 @@ Denis Vrdoljak
 W205-2
 26 May 2015
 
+<<Answers, Summary>>
+
+1. -
+2. -
+3. sys time, 7s local, 0.5s EMR
+4. “address” 2042, (5140 total tags)
+5. Same results, chunked differently on EMR
 
 
-
+<<Answers, long form/more detail>>
 
 
 PART ONE, local run:
@@ -58,6 +65,7 @@ PART FOUR:
 
 Local:
 lines/tags (2 files): 5,140 tags
+“address” tag: 2042
 1767
 1686
 +1687
@@ -67,6 +75,7 @@ lines/tags (2 files): 5,140 tags
 
 EMR:
 lines/tags (11 files): 5140 tags
+“address” tag: 2042
 463
 422
 439
@@ -83,4 +92,5 @@ lines/tags (11 files): 5140 tags
 
 PART FIVE:
 
-Yes, both the local and the cloud jobs resulted in the same number (5140) tags, which represent the same word tags, and counts.
+Yes, both the local and the cloud/emr jobs resulted in the same number of (5140) tags, as well as the same countresult (2042) for the “address” tag
+
