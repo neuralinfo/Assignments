@@ -1,0 +1,86 @@
+Denis Vrdoljak
+W205-2
+26 May 2015
+
+
+
+
+
+
+PART ONE, local run:
+
+time python absolutize_path.py < input/test-1.warc | python tag_counter.py -r local --conf-path mrjob.conf --no-output --output-dir out
+
+Local (run2):
+real	2m33.692s
+user	2m27.788s
+sys	0m7.229s
+
+Local (first run):
+real	2m30.053s
+user	2m20.919s
+sys	0m5.474s
+
+PART TWO, EMR run:
+
+time python tag_counter.py -r emr --conf-path mrjob.conf --python-archive mrcc.py.tar.gz --no-output --output-dir s3://denis-ischool/emr-out --source s3 input/test-1.warc
+
+EMR (run3, AMI 3.7.0)
+real	13m57.113s
+user	0m1.819s
+sys	0m0.518s
+
+EMR (run2, AMI 3.6.0):
+real	19m46.761s
+user	0m3.160s
+sys	0m0.388s
+
+EMR:
+real	19m47.646s
+user	0m3.083s
+sys	0m0.273s
+
+PART THREE:
+
+EMR (third run, AMI 3.7.0):
+real	13m57.113s
+user	0m1.819s
+sys	0m0.518s
+
+Local (first run):
+real	2m30.053s
+user	2m20.919s
+sys	0m5.474s
+
+
+
+PART FOUR:
+
+Local:
+lines/tags (2 files): 5,140 tags
+1767
+1686
++1687
+———
+5140 tags
+
+
+EMR:
+lines/tags (11 files): 5140 tags
+463
+422
+439
+459
+485
+490
+493
+442
+457
+507
++483
+———
+5140 tags
+
+PART FIVE:
+
+Yes, both the local and the cloud jobs resulted in the same number (5140) tags, which represent the same word tags, and counts.
