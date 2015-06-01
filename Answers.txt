@@ -4,6 +4,8 @@ W205-2
 
 <<Answers, Summary>>
 
+
+
 1. -
 2. -
 3. sys time, 7s local, 0.5s EMR
@@ -27,6 +29,11 @@ Local (first run):
 real	2m30.053s
 user	2m20.919s
 sys	0m5.474s
+
+local (using other method ("local" arg)):
+real	2m32.285s
+user	2m28.523s
+sys	0m4.864s
 
 PART TWO, EMR run:
 
@@ -92,5 +99,5 @@ lines/tags (11 files): 5140 tags
 
 PART FIVE:
 
-Yes, both the local and the cloud/emr jobs resulted in the same number of (5140) tags, as well as the same countresult (2042) for the “address” tag
-
+Yes, both the local and the cloud/emr jobs resulted in the same number of (5140) tags, as well as the same count result (2042) for the “address” tag
+(Other local method also give same results as these two.)
