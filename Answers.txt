@@ -100,4 +100,5 @@ lines/tags (11 files): 5140 tags
 PART FIVE:
 
 Yes, both the local and the cloud/emr jobs resulted in the same number of (5140) tags, as well as the same count result (2042) for the “address” tag
+
 (Other local method also give same results as these two.)
