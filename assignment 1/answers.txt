@@ -1,0 +1,6 @@
+3) local: 253.6s 
+   emr: m1.large + 4x m1.xlarge: 281.0s + ~480.2s setup/sync time
+4) 2042
+5) the two agree:
+   out/part-00000:"address"	2042
+   emr-out/part-00004:"address"	2042
