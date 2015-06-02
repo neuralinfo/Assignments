@@ -1,5 +1,6 @@
 3. How long to process:
-	Locally: 
-	AWR: 
+	Locally: 118s
+	AWR: 1089.1s if you include EC2 space allocation and bootstrapping. For the job alone only 242.4s
 4. Address tags in the input: 2042 fromlocal run
-5. No
+5. I was not able to get the AWR version to run. I ran the program over 30 times, and followed the updated instructions 
+and tips from other students on the wall to no avail. It appears have a problem mapping the jobs as 100% of the jobs will fail or be cancelled.
