@@ -1,0 +1,29 @@
+				Answers
+Saru Mehta
+5/28/15
+
+1) Look at directory called out
+2) Look at directory called emr-out
+3) Step one: Running the tag counter locally.
+	Time to run process:
+	real	2m37.665s
+	user	2m19.394s
+	sys	0m3.945s
+   
+   Step two: Running the tag counter on AWS
+	Time to run process: 
+	real	867.50s    
+	user 	2.25s          
+	sys	0.62s
+	Running time was 309.0s (not counting time spent waiting for the EC2 instances)
+
+4) How many address tags are there in the input?
+	After running program locally, there are 2042 ‘address’ tags
+	
+	After running program on AWS, there are also 2042 ‘address’ tags
+
+
+5) Does the local version and EMR version give the same answer?
+   Yes, the local and EMR version gave me the same count for ’address’ tags
+
+
