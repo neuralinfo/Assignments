@@ -16,9 +16,12 @@ I used the API through Tweepy to get tweets from 2015-06-10 to 2015-06-17. I cre
  4. hist.py: program that reads all the tweets and generates a new sorted file with the counts for each word. It removes non alphabetic characters and lowers all the words.
  5. init.sh: program to execute only once before running run.sh. No need to run, it has already been executed.
 
-## There are two histograms as png ##
- Topwords: contains the histogram of the top words
+## There are three histograms as png ##
+ Topwords 30: contains the histogram of the 30 top words
  ![topwords](top_words.png)
+
+ Topwords 100: contains the histogram of the 100 top words
+ ![topwords](top100.png)
 
  Log of frequencies of counts: contains, for a given number x, the log of how many words appear x times
  ![log](log_freq.png)
