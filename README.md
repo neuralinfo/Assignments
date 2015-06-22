@@ -3,10 +3,10 @@
 ## Tweets ##
 I used the API through Tweepy to get tweets from 2015-06-10 to 2015-06-17. I created 4 files, each one with a list of JSON objects representing tweets
 
- 0. ![All the tweets](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_combined)
- 1. ![#FinalNBA2015](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_nba)
- 2. ![#FinalNBA2015 and #Warriors](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_nba_and_warriors)
- 3. ![#Warriors](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_warriors)
+ 0. [All the tweets](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_combined)
+ 1. [#FinalNBA2015](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_nba)
+ 2. [#FinalNBA2015 and #Warriors](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_nba_and_warriors)
+ 3. [#Warriors](https://s3-us-west-2.amazonaws.com/assignment2-walter/final_warriors)
 
 ## These are some files in this folder ##
  
