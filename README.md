@@ -17,5 +17,6 @@ I used the API through Tweepy to get tweets from 2015-06-10 to 2015-06-17. I cre
  5. init.sh: program to execute only once before running run.sh. No need to run, it has already been executed.
 
 ## There are two histograms as png ##
- 1. topwords: contains the histogram of the top words
+ 1. ![topwords](topwords.png): contains the histogram of the top words
  2. log: contains, for a given number x, the log of how many words appear x times
+
