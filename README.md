@@ -18,8 +18,8 @@ I used the API through Tweepy to get tweets from 2015-06-10 to 2015-06-17. I cre
 
 ## There are two histograms as png ##
  Topwords: contains the histogram of the top words
- ![topwords](topwords.png)
+ ![topwords](top_words.png)
 
  Log of frequencies of counts: contains, for a given number x, the log of how many words appear x times
- ![log](log.png)
+ ![log](log_freq.png)
 
