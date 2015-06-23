@@ -33,7 +33,7 @@ Note: your repositories will be public unless you [request a private one](https:
  8. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) from your created branch to master for the code you'd like to turn in by clicking the Compare & pull request button
   ![Pull Request](screens/6-PullRequest.png?raw=true "Pull Request")
 
- 9. Your instructor can now view the pull request and grade the assignment.  Please do not merge the pull request yet.
+ 9. Your instructor can now view the pull request and grade the assignment.  **Please do not merge the pull request.**
   ![Pull Request](screens/7-FinalOutput.png?raw=true "Pull Request")
  
  10. Once your instructor has graded the assignment, your pull request is merged as a final notification.
