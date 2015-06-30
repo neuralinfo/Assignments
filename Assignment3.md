@@ -11,22 +11,23 @@ We'd like to utilize the twitter data (raw formats) that you gathered in assignm
 ##Lexical diversity  ##
 Lexical diversity is a measurement that provides a quantitative measure for the diversity of an individual's or group's vocabulary.  It is calculated by  finding the number of unique tokens in the text divided by the total number of tokens in the text. 
 
+##Tasks  ##
+
 Note: When you start working on the data acquistion parts, make sure you look at part 2.3 which also requires data pulls and plan accordingly.
 
-## 1-Storing Task ##
+## 1-Storing Tasks ##
 
 
   1.1- Write a python program to automatically retrieve and store the JSON files (associated with the #NBAFinals2015 or #Warriors hash tags) 
-     returned by twitter REST api in a MongoDB database called db_streamT. 
+     returned by twitter REST api in a MongoDB database called db_restT. 
      
-  1.2- Write a python program to insert the chucked data tweets (of assignment 2) that you have stored on S3 to mongoDB 
-     in a MongoDB database called db_tweets.
+  1.2- Write a python program to insert the chucked tweets associated with the #NBAFinals2015 or #Warriors hash tags  that you have gathered in the assignment 2 and stored on S3 to a MongoDB database called db_tweets. This program should pull the inputs automatically from your S3 buckets holding the chuncked tweets and insert them into the db_tweets.
 
-## 2-Retrieving and Analyzing Task ##
+## 2-Retrieving and Analyzing Tasks ##
   2.1- Analyze the tweets stored in db_tweets by finding the top 30 retweets as well as their associated usernames (users authored them) and the locations 
    of users.
    
-  2.2- Compute the lexical diversity of the texts of the tweets stored in db_streamT and store the results back to Mongodb. You need to create a collection 
+  2.2- Compute the lexical diversity of the texts of the tweets stored in db_restT and store the results back to Mongodb. You need to create a collection 
     with appropriate structure for storing the results of your analysis.
     
   2.3- Write a python program to create a db called db_followers that stores all the followers for all the users that
@@ -37,7 +38,7 @@ Note: When you start working on the data acquistion parts, make sure you look at
 
 ##3-Storing and Retrieving Task##
 
-  3.1- Write a python program to create and store the backups of both db_tweets and db_streamT to S3. It also should have a capability of
+  3.1- Write a python program to create and store the backups of both db_tweets and db_restT to S3. It also should have a capability of
      loading the backups if necessary.
      
 
