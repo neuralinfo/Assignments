@@ -18,10 +18,10 @@ Note: When you start working on the data acquistion parts, make sure you look at
 ## 1-Storing Tasks ##
 
 
-  1.1- Write a python program to automatically retrieve and store the JSON files (associated with the #NBAFinals2015 or #Warriors hash tags) 
-     returned by twitter REST api in a MongoDB database called db_restT. 
+  1.1- Write a python program to automatically retrieve and store the JSON files (associated with the tweets that include  #NBAFinals2015 hashtag and the tweets that include #Warriors hashtag) 
+     returned by the twitter REST api in a MongoDB database called db_restT. 
      
-  1.2- Write a python program to insert the chucked tweets associated with the #NBAFinals2015 or #Warriors hash tags  that you have gathered in the assignment 2 and stored on S3 to a MongoDB database called db_tweets. This program should pull the inputs automatically from your S3 buckets holding the chuncked tweets and insert them into the db_tweets.
+  1.2- Write a python program to insert the chucked tweets associated with the #NBAFinals2015 hashtag and the tweets  associated with the #Warriors hashtag  that you have gathered in the assignment 2 and stored on S3 to a MongoDB database called db_tweets. This program should pull the inputs automatically from your S3 buckets holding the chuncked tweets and insert them into the db_tweets.
 
 ## 2-Retrieving and Analyzing Tasks ##
   2.1- Analyze the tweets stored in db_tweets by finding the top 30 retweets as well as their associated usernames (users authored them) and the locations 
