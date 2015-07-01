@@ -27,7 +27,9 @@ Note: When you start working on the data acquistion parts, make sure you look at
   2.1- Analyze the tweets stored in db_tweets by finding the top 30 retweets as well as their associated usernames (users authored them) and the locations 
    of users.
    
-  2.2- Compute the lexical diversity of the texts of the tweets stored in db_restT and store the results back to Mongodb. You need to create a collection 
+  2.2- Compute the lexical diversity of the texts of the tweets for each of the users in db_restT and store the results back to Mongodb. To compute the lexical diversity of a user, you need to find all the tweets of a particular user (a user's tweets corpus), find the number of unique words in the user's tweets corpus, and divide that number by the total number of words in the user's tweets corpus. 
+  
+  You need to create a collection 
     with appropriate structure for storing the results of your analysis.
     
   2.3- Write a python program to create a db called db_followers that stores all the followers for all the users that
@@ -48,4 +50,4 @@ Note: When you start working on the data acquistion parts, make sure you look at
 
 2. Your python codes.
 
-3. The plot of your lexical diversity in task 2.2 and the result of the sentiment analysis in task 2.4 if you complete the bonus part.
+3. The plot of your lexical diversities in task 2.2 showing the lexical diveristies of the top 30 users and the result of the sentiment analysis in task 2.4 if you complete the bonus part.
