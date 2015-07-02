@@ -13,6 +13,8 @@ Lexical diversity is a measurement that provides a quantitative measure for the 
 
 ##Tasks  ##
 
+For those of you that didn't store all the *metadata* for tweets associated with the #NBAFinals2015 hashtag and the tweets  associated with the #Warriors hashtag in the assginment 2, you may find very few tweets with those hashtags now. In that case, you can use two different *related* hashtags about a more current event to ensure you get a good amount of data and use that corpus for the rest of the assignment. Make sure, you indicate these changes in your readme file as part of your submission if you decide to do so.
+
 Note: When you start working on the data acquistion parts, make sure you look at part 2.3 which also requires data pulls and plan accordingly.
 
 ## 1-Storing Tasks ##
