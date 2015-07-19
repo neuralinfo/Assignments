@@ -1,0 +1,30 @@
+{u'user_name': u'lorennasilca1D', u'_id': ObjectId('55ab190be65db10a2486eb22'), u'user_location': u'', u'id': u'609856071931404289', u'rtweet_count': 18556}
+{u'user_name': u'lorennasilca1D', u'_id': ObjectId('55ab190ce65db10a2487001c'), u'user_location': u'', u'id': u'609856071931404289', u'rtweet_count': 18556}
+{u'user_name': u'lorennasilca1D', u'_id': ObjectId('55ab190be65db10a2486eb20'), u'user_location': u'', u'id': u'609856148037083136', u'rtweet_count': 11459}
+{u'user_name': u'lorennasilca1D', u'_id': ObjectId('55ab190ce65db10a2487001a'), u'user_location': u'', u'id': u'609856148037083136', u'rtweet_count': 11459}
+{u'user_name': u'Ty_her_ToTheBed', u'_id': ObjectId('55ab190ae65db10a2486dad4'), u'user_location': u'', u'id': u'609745925578321920', u'rtweet_count': 4057}
+{u'user_name': u'E97FM', u'_id': ObjectId('55ab190ae65db10a2486dad6'), u'user_location': u'', u'id': u'609743879844274176', u'rtweet_count': 4057}
+{u'user_name': u'lasheydionne', u'_id': ObjectId('55ab190ae65db10a2486dada'), u'user_location': u'', u'id': u'609728489596538881', u'rtweet_count': 4057}
+{u'user_name': u'EmmyEe6', u'_id': ObjectId('55ab190ae65db10a2486dadc'), u'user_location': u'', u'id': u'609728004613345280', u'rtweet_count': 4057}
+{u'user_name': u'_liRrBb', u'_id': ObjectId('55ab190ae65db10a2486dae0'), u'user_location': u'', u'id': u'609725870266273792', u'rtweet_count': 4057}
+{u'user_name': u'_Trelllll', u'_id': ObjectId('55ab190ae65db10a2486dae2'), u'user_location': u'', u'id': u'609725766658588673', u'rtweet_count': 4057}
+{u'user_name': u'__gettinmoney', u'_id': ObjectId('55ab190ae65db10a2486dae4'), u'user_location': u'', u'id': u'609725720961658881', u'rtweet_count': 4057}
+{u'user_name': u'baylee_ohbaylee', u'_id': ObjectId('55ab190ae65db10a2486dae6'), u'user_location': u'sc : baayylleeee', u'id': u'609724950757294080', u'rtweet_count': 4057}
+{u'user_name': u'noonieenuu', u'_id': ObjectId('55ab190ae65db10a2486dae8'), u'user_location': u'', u'id': u'609724386073903104', u'rtweet_count': 4057}
+{u'user_name': u'ap22566', u'_id': ObjectId('55ab190ae65db10a2486daea'), u'user_location': u'', u'id': u'609723913346633728', u'rtweet_count': 4057}
+{u'user_name': u'Ethan_nnnnn', u'_id': ObjectId('55ab190ae65db10a2486e554'), u'user_location': u'', u'id': u'609087116350500864', u'rtweet_count': 4057}
+{u'user_name': u'Spacey___', u'_id': ObjectId('55ab190ae65db10a2486e5b6'), u'user_location': u'Dallas, TX', u'id': u'608863376077291520', u'rtweet_count': 4057}
+{u'user_name': u'RolandZipporah', u'_id': ObjectId('55ab190ae65db10a2486e5ea'), u'user_location': u'janae glover ', u'id': u'608732445341450240', u'rtweet_count': 4057}
+{u'user_name': u'teeleezy_', u'_id': ObjectId('55ab190ae65db10a2486e5f2'), u'user_location': u'', u'id': u'608723339746512896', u'rtweet_count': 4057}
+{u'user_name': u'trb_bam', u'_id': ObjectId('55ab190ae65db10a2486e5f4'), u'user_location': u'Athens, GA', u'id': u'608723145877405696', u'rtweet_count': 4057}
+{u'user_name': u'iAm_leaa', u'_id': ObjectId('55ab190ae65db10a2486e5f6'), u'user_location': u'', u'id': u'608722206235885568', u'rtweet_count': 4057}
+{u'user_name': u'ejraider', u'_id': ObjectId('55ab190ae65db10a2486e5f8'), u'user_location': u'Phoenix/Vegas', u'id': u'608718169373577216', u'rtweet_count': 4057}
+{u'user_name': u'DBLVCK_', u'_id': ObjectId('55ab190ae65db10a2486e608'), u'user_location': u'', u'id': u'608700128849870849', u'rtweet_count': 4057}
+{u'user_name': u'_monopolyyyy', u'_id': ObjectId('55ab190ae65db10a2486e60c'), u'user_location': u'', u'id': u'608694934107885568', u'rtweet_count': 4057}
+{u'user_name': u'yungjayeasy', u'_id': ObjectId('55ab190ae65db10a2486e60e'), u'user_location': u'', u'id': u'608694298264109056', u'rtweet_count': 4057}
+{u'user_name': u'Samirkurjak', u'_id': ObjectId('55ab190ae65db10a2486e610'), u'user_location': u'', u'id': u'608691397978374144', u'rtweet_count': 4057}
+{u'user_name': u'JyriaChainel_', u'_id': ObjectId('55ab190ae65db10a2486e612'), u'user_location': u'', u'id': u'608691256764465152', u'rtweet_count': 4057}
+{u'user_name': u'jacobssarah1231', u'_id': ObjectId('55ab190ae65db10a2486e676'), u'user_location': u'', u'id': u'608515885255548928', u'rtweet_count': 4057}
+{u'user_name': u'lexusssyo', u'_id': ObjectId('55ab190ae65db10a2486e68c'), u'user_location': u'', u'id': u'608500161686323200', u'rtweet_count': 4057}
+{u'user_name': u'ItsMeAGirl', u'_id': ObjectId('55ab190ae65db10a2486e690'), u'user_location': u'', u'id': u'608499377280315392', u'rtweet_count': 4057}
+{u'user_name': u'CDoggSmileyFace', u'_id': ObjectId('55ab190ae65db10a2486e696'), u'user_location': u'Rock Island, IL', u'id': u'608498423449255936', u'rtweet_count': 4057}

@@ -1,0 +1,30 @@
+{u'_id': ObjectId('55ab121be65db10a30ff1d68'), u'user_name': u'Chewbacca', u'lexical_diversity': 0.9545454545454546}
+{u'_id': ObjectId('55ab1232e65db10a30ff219c'), u'user_name': u'B.Tuck \ufe0f\ufe0f', u'lexical_diversity': 0.9545454545454546}
+{u'_id': ObjectId('55ab1231e65db10a30ff2168'), u'user_name': u'Jay Ezrah', u'lexical_diversity': 0.95}
+{u'_id': ObjectId('55ab11ebe65db10a30ff1838'), u'user_name': u'Lou', u'lexical_diversity': 0.9473684210526315}
+{u'_id': ObjectId('55ab1214e65db10a30ff1c26'), u'user_name': u'Sophia S.', u'lexical_diversity': 0.9473684210526315}
+{u'_id': ObjectId('55ab122ce65db10a30ff2081'), u'user_name': u'Robert Half Legal', u'lexical_diversity': 0.9473684210526315}
+{u'_id': ObjectId('55ab121de65db10a30ff1da9'), u'user_name': u'Cafetero', u'lexical_diversity': 0.9444444444444444}
+{u'_id': ObjectId('55ab122ae65db10a30ff2039'), u'user_name': u'Jared keichline', u'lexical_diversity': 0.9444444444444444}
+{u'_id': ObjectId('55ab122fe65db10a30ff2122'), u'user_name': u'Jane F. Carlson', u'lexical_diversity': 0.9444444444444444}
+{u'_id': ObjectId('55ab1232e65db10a30ff2196'), u'user_name': u'Jason Karstens', u'lexical_diversity': 0.9444444444444444}
+{u'_id': ObjectId('55ab1218e65db10a30ff1cc3'), u'user_name': u'Kai Tucker', u'lexical_diversity': 0.9411764705882353}
+{u'_id': ObjectId('55ab1228e65db10a30ff1fb2'), u'user_name': u'Ed The Empire', u'lexical_diversity': 0.9411764705882353}
+{u'_id': ObjectId('55ab122de65db10a30ff20a4'), u'user_name': u'Adam Nessel', u'lexical_diversity': 0.9411764705882353}
+{u'_id': ObjectId('55ab122ee65db10a30ff20fb'), u'user_name': u'Whitey Gleason', u'lexical_diversity': 0.9411764705882353}
+{u'_id': ObjectId('55ab1230e65db10a30ff2154'), u'user_name': u'Ted al-Parton', u'lexical_diversity': 0.9411764705882353}
+{u'_id': ObjectId('55ab1218e65db10a30ff1cd3'), u'user_name': u'Kenneth Hansen', u'lexical_diversity': 0.9375}
+{u'_id': ObjectId('55ab1228e65db10a30ff1fd4'), u'user_name': u'KOMPELLING HUSTLER', u'lexical_diversity': 0.9375}
+{u'_id': ObjectId('55ab122ae65db10a30ff2013'), u'user_name': u'Derek Peterson', u'lexical_diversity': 0.9375}
+{u'_id': ObjectId('55ab122ce65db10a30ff206d'), u'user_name': u'Hank', u'lexical_diversity': 0.9375}
+{u'_id': ObjectId('55ab1232e65db10a30ff21a7'), u'user_name': u'Cheyenne', u'lexical_diversity': 0.9375}
+{u'_id': ObjectId('55ab1217e65db10a30ff1ca0'), u'user_name': u'Erica Blackburn', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab121fe65db10a30ff1e10'), u'user_name': u'Emily Vega', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1220e65db10a30ff1e2f'), u'user_name': u'Jasmine Gonzalez', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1221e65db10a30ff1e5b'), u'user_name': u'\u2661qt', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1221e65db10a30ff1e64'), u'user_name': u'Diana Calderon', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1221e65db10a30ff1e73'), u'user_name': u'Sady Alvarez', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1224e65db10a30ff1eed'), u'user_name': u'Renaissance', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1224e65db10a30ff1f02'), u'user_name': u"let's play Golf", u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1224e65db10a30ff1f05'), u'user_name': u'LadyLum\ue10e', u'lexical_diversity': 0.9333333333333333}
+{u'_id': ObjectId('55ab1224e65db10a30ff1f06'), u'user_name': u'Miss Robles', u'lexical_diversity': 0.9333333333333333}
