@@ -11,11 +11,11 @@ In this assignment, you implement map-reduce jobs for various tasks:
 
 **Data collection:** 
  
- Write an acquisition program that can acquire all the tweets between June 6th and July 14th of 2014 for the official World Cup hashtags (“#WorldCup” and “#Brazil2014”), as well as team code hashtags (e.g. “#ARG” and “#GER”) and store them in *WC2014.csv* on S3. You can find more information about the hashtags [here](https://blog.twitter.com/en-gb/2014/follow-the-2014-world-cup-on-twitter). *WC2014.csv* will be used in the following tasks.
+ Write an acquisition program that can acquire all the tweets between June 6th and July 5th of 2015 for the official FIFA Women World Cup hashtag (“#FIFAWWC”), as well as team code hashtags (e.g. “#USA” and “#GER”) and store them in *WC2015.csv* on S3. You can find more information about teams [here](http://www.fifa.com/womensworldcup/teams/) and the hashtags [here](https://twitter.com/fifawwc). *WC2015.csv* will be used in the following tasks.
 
 #**Analysis Programs**
 
- In this part, you will write map-reduce programs to analyze the tweets stored in *WC2014.csv*
+ In this part, you will write map-reduce programs to analyze the tweets stored in *WC2015.csv*
  
  1. Write a map-reduce program that counts the number of tweets words with more than 20000 occurrences.
  2. Write a map-reduce program to compute the tweet volume on an hourly basis (i.e., number of tweets per hour) .  A sample output is like:
@@ -31,7 +31,7 @@ In this assignment, you implement map-reduce jobs for various tasks:
  4  -Write a map-reduce program that for each word in the tweets' text,  computes the occurrences of other words appear in every tweet that it appeared.
 For example, assume that we have the following text as a tweet text.
 
-> I have seen Brazil match today. I am so happy that they won :)
+> I have seen USA match today. I am so happy that they won :)
 
 *With the word I,*
 
@@ -47,9 +47,9 @@ For example, assume that we have the following text as a tweet text.
 
 Here are an example of sample outputs:
 
-– Brazil occurs 10000 times with Argentina
+– USA occurs 10000 times with Canada
 
-– Germany occurs 500 with Champion
+– Germany occurs 500 with England
 
 
  
@@ -58,7 +58,7 @@ Here are an example of sample outputs:
 
   ![enter image description here](http://www.sciweavers.org/upload/Tex2Img_1427156570/render.png)
   
-  The larger the  PMI for x and y is, the more information can be gathered about the probability of seeing y having just seen x. Your program should compute the PMI of words  that appear together more than 50 times or more among entities in *WC2014.csv*. To be more specific,  you need to find pairs of words that co-occur in 50 or more tweets. 
+  The larger the  PMI for x and y is, the more information can be gathered about the probability of seeing y having just seen x. Your program should compute the PMI of words  that appear together more than 50 times or more among entities in *WC2015.csv*. To be more specific,  you need to find pairs of words that co-occur in 50 or more tweets. 
 
 
 
@@ -66,10 +66,10 @@ Here are an example of sample outputs:
 
 Using/modifying the above programs, answer the following questions:
 
- 1. What is the average length of tweets (in number of characters) in *WC2014.csv*?
+ 1. What is the average length of tweets (in number of characters) in *WC2015.csv*?
  2. Draw a table with all the team support hashtags you can find and the number of support messages. What country did get apparently the most support?
- 3. How many times the word *Brazil* occur with the word *Argentina*?
- 4. How many times the word *champion* occur with the word *Germany*?
+ 3. How many times the word *USA* occur with the word *Japan*?
+ 4. How many times the word *champion* occur with the word *USA*?
 
 
 > **Note:**
@@ -88,7 +88,7 @@ You will use the *whoosh* API to index the tweets in the dataset to answer some 
 
 ###**Task**
 
- - Write a python program that uses whoosh to index the archive (*WC2014.csv*) based on various fields.
+ - Write a python program that uses whoosh to index the archive (*WC2015.csv*) based on various fields.
  - Write a python program that takes queries (you need to design the supported queries)  and search through the indexed archive using *whoosh.* A sample query to the program can be: *RT:yes, keywords* returns all retweets  that are related to keywords. Your program should handle at least 4 queries ( of your choice) similar to the sample query.
 
 
