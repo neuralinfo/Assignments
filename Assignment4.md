@@ -1,4 +1,3 @@
-**
 
 **Exploring twitter with MapReduce**
 =============
@@ -11,7 +10,7 @@ In this assignment, you implement map-reduce jobs for various tasks:
 
 **Data collection:** 
  
- Write an acquisition program that can acquire the tweets between June 6th and July 5th of 2015 for the official FIFA Women World Cup hashtag (“#FIFAWWC”), as well as team code hashtags (e.g. “#USA” and “#GER”) and store them with an appropriate structure in *WC2015.csv* on S3. You can find more information about teams [here](http://www.fifa.com/womensworldcup/teams/) and the hashtags [here](https://twitter.com/fifawwc). *WC2015.csv* will be used in the following tasks.
+ Write an acquisition program that can acquire the tweets between June 6th and July 5th of 2015 for the official FIFA Women World Cup hashtag (“#FIFAWWC”), as well as team code hashtags (e.g. “#USA” and “#GER”) and store them with appropriate structures in *WC2015.csv* on S3. You can find more information about teams [here](http://www.fifa.com/womensworldcup/teams/) and the hashtags [here](https://twitter.com/fifawwc). *WC2015.csv* will be used in the following tasks.
  
 There is no hard requirement for the amount of tweets that you should gather. However, you should gather reasonable amount of tweets to be able to perform the analysis part. Note that you need to gather the historical data for which you need to design a strategy and use techniques such as web scrapping for the specified time frame (June 6th and July 5th of 2015).
 
@@ -58,7 +57,7 @@ Here are an example of sample outputs:
 
 5- (bonus) Modifying the program in 4, write a map-reduce program to compute [pointwise mutual information](http://en.wikipedia.org/wiki/Pointwise_mutual_information), which is a function of two events x and y:
 
-  ![enter image description here](http://www.sciweavers.org/tex2img.php?eq=%24PMI%28x%2Cy%29%3D%5Clog%5Cfrac%7BP%28x%2Cy%29%7D%7BP%28x%29P%28y%29%7D%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+  ![PMI](http://www.sciweavers.org/tex2img.php?eq=%24PMI%28x%2Cy%29%3D%5Clog%5Cfrac%7BP%28x%2Cy%29%7D%7BP%28x%29P%28y%29%7D%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
   
   The larger the  PMI for x and y is, the more information can be gathered about the probability of seeing y having just seen x. Your program should compute the PMI of words  that appear together more than 50 times or more among entities in *WC2015.csv*. To be more specific,  you need to find pairs of words that co-occur in 50 or more tweets. 
 
