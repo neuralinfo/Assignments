@@ -13,7 +13,7 @@ In this assignment, you implement map-reduce jobs for various tasks:
  
  Write an acquisition program that can acquire the tweets between June 6th and July 5th of 2015 for the official FIFA Women World Cup hashtag (“#FIFAWWC”), as well as team code hashtags (e.g. “#USA” and “#GER”) and store them in *WC2015.csv* on S3. You can find more information about teams [here](http://www.fifa.com/womensworldcup/teams/) and the hashtags [here](https://twitter.com/fifawwc). *WC2015.csv* will be used in the following tasks.
  
-There is no hard requirement for the amount of tweets that you should gather. However, you should gather reasonable amount of tweets to be able to perform the analysis part. Note that you need to combine the data available through twitter REST api as well as the historical data that you should gather through web scraping for the specified time frame (June 6th and July 5th of 2015).
+There is no hard requirement for the amount of tweets that you should gather. However, you should gather reasonable amount of tweets to be able to perform the analysis part. Note that you need to gather the historical data for which you need to design a strategy and use techniques such as web scrapping for the specified time frame (June 6th and July 5th of 2015).
 
 #**Analysis Programs**
 
