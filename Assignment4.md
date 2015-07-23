@@ -1,7 +1,7 @@
 
-=============
 
-**
+
+
 In this assignment, you implement map-reduce jobs for various tasks:
 
 #**Tasks**
