@@ -1,10 +1,8 @@
 
-**Exploring twitter with MapReduce**
 =============
 
 **
 In this assignment, you implement map-reduce jobs for various tasks:
-
 
 #**Tasks**
 
@@ -57,7 +55,7 @@ Here are an example of sample outputs:
 
 5- (bonus) Modifying the program in 4, write a map-reduce program to compute [pointwise mutual information](http://en.wikipedia.org/wiki/Pointwise_mutual_information), which is a function of two events x and y:
 
-  ![PMI](http://www.sciweavers.org/tex2img.php?eq=%24PMI%28x%2Cy%29%3D%5Clog%5Cfrac%7BP%28x%2Cy%29%7D%7BP%28x%29P%28y%29%7D%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+  ![](http://www.sciweavers.org/download/Tex2Img_1437692896.jpg)
   
   The larger the  PMI for x and y is, the more information can be gathered about the probability of seeing y having just seen x. Your program should compute the PMI of words  that appear together more than 50 times or more among entities in *WC2015.csv*. To be more specific,  you need to find pairs of words that co-occur in 50 or more tweets. 
 
