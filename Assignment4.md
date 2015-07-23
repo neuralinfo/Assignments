@@ -11,20 +11,22 @@ In this assignment, you implement map-reduce jobs for various tasks:
 
 **Data collection:** 
  
- Write an acquisition program that can acquire all the tweets between June 6th and July 5th of 2015 for the official FIFA Women World Cup hashtag (“#FIFAWWC”), as well as team code hashtags (e.g. “#USA” and “#GER”) and store them in *WC2015.csv* on S3. You can find more information about teams [here](http://www.fifa.com/womensworldcup/teams/) and the hashtags [here](https://twitter.com/fifawwc). *WC2015.csv* will be used in the following tasks.
+ Write an acquisition program that can acquire the tweets between June 6th and July 5th of 2015 for the official FIFA Women World Cup hashtag (“#FIFAWWC”), as well as team code hashtags (e.g. “#USA” and “#GER”) and store them in *WC2015.csv* on S3. You can find more information about teams [here](http://www.fifa.com/womensworldcup/teams/) and the hashtags [here](https://twitter.com/fifawwc). *WC2015.csv* will be used in the following tasks.
+ 
+There is no hard requirement for the amount of tweets that you should gather. However, you should gather reasonable amount of tweets to be able to perform the analysis part. Note that you need to combine the data available through twitter REST api as well as the historical data that you should gather through web scraping for the specified time frame (June 6th and July 5th of 2015).
 
 #**Analysis Programs**
 
  In this part, you will write map-reduce programs to analyze the tweets stored in *WC2015.csv*
  
- 1. Write a map-reduce program that counts the number of tweets words with more than 20000 occurrences.
+ 1. Write a map-reduce program that counts the number of words with more than 10000 occurrences.
  2. Write a map-reduce program to compute the tweet volume on an hourly basis (i.e., number of tweets per hour) .  A sample output is like:
 
 | Date     | Hour | Number of tweets   |
 | :------- | ----: | :---: |
-| 8/14 | 00|  1763    |
-| 8/14     | 01   |   5432   |
-| 8/14     | 02    |  3279  |
+| 8/15 | 00|  1763    |
+| 8/15     | 01   |   5432   |
+| 8/15     | 02    |  3279  |
 
  3  -Write a map-reduce program to compute the top 20 URLs tweeted by the users
  
@@ -56,7 +58,7 @@ Here are an example of sample outputs:
 
 5- (bonus) Modifying the program in 4, write a map-reduce program to compute [pointwise mutual information](http://en.wikipedia.org/wiki/Pointwise_mutual_information), which is a function of two events x and y:
 
-  ![enter image description here](http://www.sciweavers.org/upload/Tex2Img_1427156570/render.png)
+  ![enter image description here](http://www.sciweavers.org/tex2img.php?eq=%24PMI%28x%2Cy%29%3D%5Clog%5Cfrac%7BP%28x%2Cy%29%7D%7BP%28x%29P%28y%29%7D%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
   
   The larger the  PMI for x and y is, the more information can be gathered about the probability of seeing y having just seen x. Your program should compute the PMI of words  that appear together more than 50 times or more among entities in *WC2015.csv*. To be more specific,  you need to find pairs of words that co-occur in 50 or more tweets. 
 
@@ -88,8 +90,8 @@ You will use the *whoosh* API to index the tweets in the dataset to answer some 
 
 ###**Task**
 
- - Write a python program that uses whoosh to index the archive (*WC2015.csv*) based on various fields.
- - Write a python program that takes queries (you need to design the supported queries)  and search through the indexed archive using *whoosh.* A sample query to the program can be: *RT:yes, keywords* returns all retweets  that are related to keywords. Your program should handle at least 4 queries ( of your choice) similar to the sample query.
+ - Write a python program that uses whoosh to index the archive (*WC2015.csv*) based on various fields. The fields are part of your design decisions.
+ - Write a python program that takes queries (you need to design the supported queries)  and search through the indexed archive using *whoosh.* A sample query to the program can be: *RT:yes, keywords* returns all the retweets  that are related to the keywords. Your program should handle at least 4 queries ( of your choice) similar to the sample query.
 
 
 
@@ -97,4 +99,4 @@ You will use the *whoosh* API to index the tweets in the dataset to answer some 
 
  1. A link to your collected tweets and the index directory created by whoosh on S3
  2. Your source codes. Make sure you follow the assignment submission guidelines 
- 2. You should  answer to each of the questions in the architecture design file. You also need to explain how you used map-reduce to obtain the data you needed in each case as well as how the overall index/search structure is desgined and describe the supported keyword search queries.
+ 2. You should  answer to each of the questions in the architecture design file. You also need to explain how you used map-reduce to obtain the data you needed in each case as well as how the overall index/search structure is designed and describe the supported keyword search queries.
