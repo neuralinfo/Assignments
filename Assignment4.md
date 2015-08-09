@@ -55,7 +55,7 @@ Here are an example of sample outputs:
 
 5- (bonus) Modifying the program in 4, write a map-reduce program to compute [pointwise mutual information](http://en.wikipedia.org/wiki/Pointwise_mutual_information), which is a function of two events x and y:
 
-  ![](http://www.sciweavers.org/download/Tex2Img_1437692896.jpg)
+  ![](https://cloud.githubusercontent.com/assets/10637404/9157468/b026a744-3ecc-11e5-8683-2199edc62bf5.jpg)
   
   The larger the  PMI for x and y is, the more information can be gathered about the probability of seeing y having just seen x. Your program should compute the PMI of words  that appear together more than 50 times or more among entities in *WC2015.csv*. To be more specific,  you need to find pairs of words that co-occur in 50 or more tweets. 
 
